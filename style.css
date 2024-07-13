@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-top{
+    background-color: cadetblue;
+    font-weight: bold;
+    color:white;
+    font-style: italic;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+#name{
+    font-weight: bold;
+    color:black;
+    font-style: italic;
+}
+.services{
+    padding: 20px;
+    text-align: center;background-color: cadetblue;
+    font-weight: bold;
+    color:white;
+    font-style: italic;
+    height: 350px;
+    text-align: center;
+}
+.service-heading{
+    font-style: italic;
+    font-weight: bold;
+}
+.service-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.service-provide{
+    font-style: italic;
+    border: 2px solid rgb(233, 236, 239);
+    margin: 2rem;
+    padding: 2rem;
+}
+.projects{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(104, 11, 120);
+    font-weight: bold;
+    color:white;
+    font-style: italic;
+    height: 350px;
+    text-align: center;
+
+}
+.project-heading{
+    font-style: italic;
+    font-weight: bold;
+}
+.project-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.project-provide{
+    font-style: italic;
+    border: 2px solid  rgb(233, 236, 239);
+    margin: 2rem;
+    padding: 2rem; 
+}
+.contact {
+    padding: 20px;
+    background-color: cyan;
+    font-weight: bold;
+    color:white;
+    font-style: italic;
+    height: 200px;
+    text-align: center;
+}
+.social-icon-img{
+    padding: 20px;
+    height: 20px;
+    width: 20px;
+}
+.head{
+    padding: 10px;
+}
+.p{
+    padding: 10px;
+}
